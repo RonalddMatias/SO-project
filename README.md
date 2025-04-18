@@ -10,7 +10,8 @@ Através deste experimento, demonstramos que, após um determinado ponto, aument
 
 - `trace_generator.py`: Responsável pela geração do traço de acessos à memória com localidade configurável.
 - `tlb.py`: Implementação da TLB utilizando a política de substituição LRU (Least Recently Used).
-- `main.py`: Simulação principal que executa o traço sobre diferentes tamanhos de TLB, coleta os dados e plota o gráfico da taxa de hits.
+- `tlb_simulator.py`: Executa a simulação, variando o tamanho da TLB, e gera os resultados colocando-os na entrada padrão.
+- `plot_results.py`: Pega o resultado da entrada padrão gerado pelo `tlb_simulator` e plota o gráfico.
 
 ## Como Executar
 
@@ -23,9 +24,9 @@ Através deste experimento, demonstramos que, após um determinado ponto, aument
    ```bash
    pip3 install matplotlib
 
-3. Execute o arquivo principal:
+3. Execute o arquivos principais:
    ```bash
-   python3 main.py
+   python3 tlb_simulator.py | python3 plot_results.py
 
 4. O programa irá:
 
@@ -35,7 +36,7 @@ Através deste experimento, demonstramos que, após um determinado ponto, aument
 
 ## Personalização:
 
-Se desejar gerar diferentes traços ou testar diferentes configurações, é possível alterar os parâmetros no arquivo *main.py*, como:
+Se desejar gerar diferentes traços ou testar diferentes configurações, é possível alterar os parâmetros no arquivo `tlb_simulator.py`, como:
 
 - Número de acessos (*NUM_ACESSOS*)
 - Número máximo de páginas (*MAX_PAGINAS*)
