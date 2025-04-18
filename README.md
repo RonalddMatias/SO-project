@@ -21,11 +21,11 @@ Através deste experimento, demonstramos que, após um determinado ponto, aument
 
 2. Instale as dependências necessárias (se ainda não tiver o matplotlib):
    ```bash
-   pip install matplotlib
+   pip3 install matplotlib
 
 3. Execute o arquivo principal:
    ```bash
-   python main.py
+   python3 main.py
 
 4. O programa irá:
 
