@@ -2,8 +2,7 @@
 
 ## Descrição
 
-Este projeto tem como objetivo estudar o impacto do tamanho da Translation Lookaside Buffer (TLB) no desempenho de sistemas de paginação.  
-Por meio da simulação de acessos à memória, com padrões que reproduzem localidade temporal e espacial, foi possível observar o comportamento da taxa de hits (*hit ratio*) para diferentes configurações de TLB.
+Este projeto tem como objetivo estudar o impacto do tamanho da Translation Lookaside Buffer (TLB) no desempenho de sistemas de paginação. Por meio da simulação de acessos à memória, com padrões que reproduzem localidade temporal e espacial, foi possível observar o comportamento da taxa de hits (*hit ratio*) para diferentes configurações de TLB.
 
 Através deste experimento, demonstramos que, após um determinado ponto, aumentar o tamanho da TLB deixa de trazer ganhos significativos de desempenho.
 
