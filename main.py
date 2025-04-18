@@ -14,7 +14,7 @@ def main():
                           p_localidade=P_LOCALIDADE)
     
     # Lista de tamanhos de TLB para testar
-    tlb_sizes = [4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 2567 , 4096]
+    tlb_sizes = [4, 8, 16, 32, 64, 128, 256, 512, 1024, 1500, 1800, 2048, 2567 , 4096]
     
     resultados = []
     for size in tlb_sizes:
